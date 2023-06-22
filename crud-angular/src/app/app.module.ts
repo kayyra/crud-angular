@@ -1,21 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import{ HttpClientModule } from '@angular/common/http';
-import { ImgComponent } from './assets/img/img.component';
+
+import { HttpClientModule } from '@angular/common/http';
+
+import { ChuckModule } from "./chuck/chuck.module";
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ImgComponent
+    AppComponent, 
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ChuckModule,   
   ],
+ 
   providers: [],
   bootstrap: [AppComponent]
 })

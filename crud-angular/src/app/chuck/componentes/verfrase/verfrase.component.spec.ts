@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImgComponent } from './img.component';
+import { VerfraseComponent } from './verfrase.component';
 
-describe('ImgComponent', () => {
-  let component: ImgComponent;
-  let fixture: ComponentFixture<ImgComponent>;
+describe('VerfraseComponent', () => {
+  let component: VerfraseComponent;
+  let fixture: ComponentFixture<VerfraseComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ImgComponent]
+      declarations: [VerfraseComponent]
     });
-    fixture = TestBed.createComponent(ImgComponent);
+    fixture = TestBed.createComponent(VerfraseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
